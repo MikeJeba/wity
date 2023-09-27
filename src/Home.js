@@ -6,6 +6,9 @@ import menu4 from "./assets/images/menu4.jpg";
 import menu6 from "./assets/images/menu6.jpg";
 import menu8 from "./assets/images/menu8.jpg";
 import about from "./assets/images/about.jpg";
+import menu9 from "./assets/images/menu9.jpg";
+import menu10 from "./assets/images/menu10.jpg";
+import menu11 from "./assets/images/menu11.jpg";
 
 function Home() {
   return (
@@ -667,6 +670,64 @@ function Home() {
         <div class="bg-center">
           <img class="bg-center" src={about} alt="" />
         </div>
+      </div>
+      <div>
+        <h1 class="italic mb-4 text-center text-3xl text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+          <span class="text-transparent bg-clip-text bg-gradient-to-r to-orange-400 from-red-600">
+            Gallery
+          </span>
+        </h1>
+        <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
+          <div class="-m-1 flex flex-wrap md:-m-2">
+            <div class="flex w-1/3 flex-wrap">
+              <div class="w-full p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  class="block h-full w-full rounded-lg object-cover object-center"
+                  src={menu9}
+                />
+              </div>
+            </div>
+            <div class="flex w-1/3 flex-wrap">
+              <div class="w-full p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  class="block h-full w-full rounded-lg object-cover object-center"
+                  src={menu10}
+                />
+              </div>
+            </div>
+            <div class="flex w-1/3 flex-wrap">
+              <div class="w-full p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  class="block h-full w-full rounded-lg object-cover object-center"
+                  src={menu11}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1 class="italic mb-4 text-center text-3xl text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+          <span class="text-transparent bg-clip-text bg-gradient-to-r to-orange-400 from-red-600">
+            Videos
+          </span>
+        </h1>
+        <a href="https://youtube.com/shorts/YCTuQ_JcuuU?si=cdW-wYOncA1pMU_j">
+          <div class="border-4 rounded border-indigo-600">
+            <svg
+              class="w-20 h-20 text-gray-800 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 14 16"
+            >
+              <path d="M0 .984v14.032a1 1 0 0 0 1.506.845l12.006-7.016a.974.974 0 0 0 0-1.69L1.506.139A1 1 0 0 0 0 .984Z" />
+            </svg>
+          </div>
+        </a>
       </div>
     </div>
   );

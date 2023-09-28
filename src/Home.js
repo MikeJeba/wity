@@ -13,105 +13,125 @@ import menu11 from "./assets/images/menu11.jpg";
 function Home() {
   return (
     <div>
-      <div class="flex items-center justify-center py-4 md:py-8 flex-wrap">
+      <div className="flex items-center justify-center py-4 md:py-8 flex-wrap">
         <button
           type="button"
-          class="text-red-700 hover:text-white border border-red-600 bg-white hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-500 dark:bg-gray-900 dark:focus:ring-red-800"
+          className="text-red-700 hover:text-white border border-red-600 bg-white hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-500 dark:bg-gray-900 dark:focus:ring-red-800"
         >
           All categories
         </button>
         <button
           type="button"
-          class="text-red-500 border border-white hover:border-red-200 dark:border-red-900 dark:bg-red-900 dark:hover:border-red-700 bg-white focus:ring-4 focus:outline-none focus:ring-red-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:text-white dark:focus:ring--800"
+          className="text-red-500 border border-white hover:border-red-200 dark:border-red-900 dark:bg-red-900 dark:hover:border-red-700 bg-white focus:ring-4 focus:outline-none focus:ring-red-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:text-white dark:focus:ring--800"
         >
           Cakes
         </button>
         <button
           type="button"
-          class="text-red-500 border border-white hover:border-red-200 dark:border-red-900 dark:bg-red-900 dark:hover:border-red-700 bg-white focus:ring-4 focus:outline-none focus:ring-red-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:text-white dark:focus:ring-red-800"
+          className="text-red-500 border border-white hover:border-red-200 dark:border-red-900 dark:bg-red-900 dark:hover:border-red-700 bg-white focus:ring-4 focus:outline-none focus:ring-red-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:text-white dark:focus:ring-red-800"
         >
           Chocolates
         </button>
         <button
           type="button"
-          class="text-red-500 border border-white hover:border-red-200 dark:border-red-900 dark:bg-red-900 dark:hover:border-red-700 bg-white focus:ring-4 focus:outline-none focus:ring-red-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:text-white dark:focus:ring-red-800"
+          className="text-red-500 border border-white hover:border-red-200 dark:border-red-900 dark:bg-red-900 dark:hover:border-red-700 bg-white focus:ring-4 focus:outline-none focus:ring-red-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:text-white dark:focus:ring-red-800"
         >
           Cookies
         </button>
         <button
           type="button"
-          class="text-red-500 border border-white hover:border-red-200 dark:border-red-900 dark:bg-red-900 dark:hover:border-red-700 bg-white focus:ring-4 focus:outline-none focus:ring-red-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:text-white dark:focus:ring-red-800"
+          className="text-red-500 border border-white hover:border-red-200 dark:border-red-900 dark:bg-red-900 dark:hover:border-red-700 bg-white focus:ring-4 focus:outline-none focus:ring-red-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:text-white dark:focus:ring-red-800"
         >
           Buffs
         </button>
       </div>
       <div>
-        <h1 class="italic mb-4 text-center text-3xl text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-          <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+        <h1 className="italic mb-4 text-center text-3xl text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
             Our Delicacies
           </span>
         </h1>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-          <div class="scale-75">
-            <img class="h-auto max-w-full rounded-full" src={menu} alt="" />
-            <p class="text-center text-2xl font-normal text-black-500 sm-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <div className="scale-75">
+            <img className="h-auto max-w-full rounded-full" src={menu} alt="" />
+            <p className="text-center text-2xl font-normal text-black-500 sm-20">
               Cakes
             </p>
           </div>
-          <div class="scale-75">
-            <img class="h-auto max-w-full rounded-full" src={menu2} alt="" />
-            <p class="text-center text-2xl font-normal text-black-500 sm-20">
+          <div className="scale-75">
+            <img
+              className="h-auto max-w-full rounded-full"
+              src={menu2}
+              alt=""
+            />
+            <p className="text-center text-2xl font-normal text-black-500 sm-20">
               Chocolates
             </p>
           </div>
-          <div class="scale-75">
-            <img class="h-auto max-w-full rounded-full" src={menu3} alt="" />
-            <p class="text-center text-2xl font-normal text-black-500 sm-20">
+          <div className="scale-75">
+            <img
+              className="h-auto max-w-full rounded-full"
+              src={menu3}
+              alt=""
+            />
+            <p className="text-center text-2xl font-normal text-black-500 sm-20">
               Cookies
             </p>
           </div>
           <div className="aspect-square">
-            <div class="scale-75">
-              <img class="h-auto max-w-full rounded-full" src={menu4} alt="" />
-              <div class="flex items-center">
-                <p class="text-center text-2xl font-normal text-black-500 sm-20">
+            <div className="scale-75">
+              <img
+                className="h-auto max-w-full rounded-full"
+                src={menu4}
+                alt=""
+              />
+              <div className="flex items-center">
+                <p className="text-center text-2xl font-normal text-black-500 sm-20">
                   Pasteries
                 </p>
               </div>
             </div>
           </div>
-          <div class="scale-75">
-            <img class="h-auto max-w-full rounded-full" src={menu6} alt="" />
-            <p class="text-center text-2xl font-normal text-black-500 sm-20">
+          <div className="scale-75">
+            <img
+              className="h-auto max-w-full rounded-full"
+              src={menu6}
+              alt=""
+            />
+            <p className="text-center text-2xl font-normal text-black-500 sm-20">
               Puffs
             </p>
           </div>
-          <div class="scale-75">
-            <img class="h-auto max-w-full rounded-full" src={menu8} alt="" />
-            <p class="text-left text-2xl font-normal text-black-500 sm-20">
+          <div className="scale-75">
+            <img
+              className="h-auto max-w-full rounded-full"
+              src={menu8}
+              alt=""
+            />
+            <p className="text-left text-2xl font-normal text-black-500 sm-20">
               Cupcakes
             </p>
           </div>
         </div>
       </div>
       <div>
-        <h1 class="italic mb-4 text-center text-3xl text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-          <span class="text-transparent bg-clip-text bg-gradient-to-r to-rose-600 from-red-400">
+        <h1 className="italic mb-4 text-center text-3xl text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r to-rose-600 from-red-400">
             Products
           </span>
         </h1>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-y-2">
-        <div class="">
-          <div class="w-80 bg-white shadow rounded">
-            <div class="h-48 w-full bg-white-200 flex flex-col justify-between p-4 bg-cover bg-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-y-2">
+        <div className="">
+          <div className="w-80 bg-white shadow rounded">
+            <div className="h-48 w-full bg-white-200 flex flex-col justify-between p-4 bg-cover bg-center">
               <input type="checkbox" />
               <img src={menu} alt="" />
-              <div class="flex justify-between">
-                <button class="text-white hover:text-blue-500">
+              <div className="flex justify-between">
+                <button className="text-white hover:text-blue-500">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -126,22 +146,22 @@ function Home() {
                 </button>
               </div>
               <div>
-                <span class="uppercase text-xs bg-green-50 p-0.5 border-green-500 border rounded text-green-700 font-medium select-none">
+                <span className="uppercase text-xs bg-green-50 p-0.5 border-green-500 border rounded text-green-700 font-medium select-none">
                   available{" "}
                 </span>
               </div>
             </div>
-            <div class="p-4 flex flex-col items-center">
-              <p class="text-gray-400 font-light text-xs text-center">
+            <div className="p-4 flex flex-col items-center">
+              <p className="text-gray-400 font-light text-xs text-center">
                 Pasteries
               </p>
-              <h1 class="text-gray-800 text-center mt-1">Cakes</h1>
-              <p class="text-center text-gray-800 mt-1">Rs.600</p>
-              <div class="inline-flex items-center mt-2">
-                <button class="bg-white rounded-l border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
+              <h1 className="text-gray-800 text-center mt-1">Cakes</h1>
+              <p className="text-center text-gray-800 mt-1">Rs.600</p>
+              <div className="inline-flex items-center mt-2">
+                <button className="bg-white rounded-l border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-4"
+                    className="h-6 w-4"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -154,13 +174,13 @@ function Home() {
                     />{" "}
                   </svg>
                 </button>
-                <div class="bg-gray-100 border-t border-b border-gray-100 text-gray-600 hover:bg-gray-100 inline-flex items-center px-4 py-1 select-none">
+                <div className="bg-gray-100 border-t border-b border-gray-100 text-gray-600 hover:bg-gray-100 inline-flex items-center px-4 py-1 select-none">
                   2
                 </div>
-                <button class="bg-white rounded-r border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
+                <button className="bg-white rounded-r border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-4"
+                    className="h-6 w-4"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -175,11 +195,11 @@ function Home() {
                 </button>
               </div>
 
-              <button class="py-2 px-4 bg-red-500 text-white rounded hover:bg-blue-600 active:bg-blue-700 disabled:opacity-50 mt-4 w-full flex items-center justify-center">
+              <button className="py-2 px-4 bg-red-500 text-white rounded hover:bg-blue-600 active:bg-blue-700 disabled:opacity-50 mt-4 w-full flex items-center justify-center">
                 Add to order
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 ml-2"
+                  className="h-6 w-6 ml-2"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -195,15 +215,15 @@ function Home() {
             </div>
           </div>
         </div>
-        <div class="w-80 bg-white shadow rounded">
-          <div class="h-48 w-full bg-white-200 flex flex-col justify-between p-4 bg-cover bg-center">
+        <div className="w-80 bg-white shadow rounded">
+          <div className="h-48 w-full bg-white-200 flex flex-col justify-between p-4 bg-cover bg-center">
             <input type="checkbox" />
             <img src={menu2} alt="" />
-            <div class="flex justify-between">
-              <button class="text-white hover:text-red-500">
+            <div className="flex justify-between">
+              <button className="text-white hover:text-red-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
+                  className="h-6 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -218,22 +238,22 @@ function Home() {
               </button>
             </div>
             <div>
-              <span class="uppercase text-xs bg-green-50 p-0.5 border-green-500 border rounded text-green-700 font-medium select-none">
+              <span className="uppercase text-xs bg-green-50 p-0.5 border-green-500 border rounded text-green-700 font-medium select-none">
                 available{" "}
               </span>
             </div>
           </div>
-          <div class="p-4 flex flex-col items-center">
-            <p class="text-gray-400 font-light text-xs text-center">
+          <div className="p-4 flex flex-col items-center">
+            <p className="text-gray-400 font-light text-xs text-center">
               Pasteries
             </p>
-            <h1 class="text-gray-800 text-center mt-1">Chocolates</h1>
-            <p class="text-center text-gray-800 mt-1">Rs.600</p>
-            <div class="inline-flex items-center mt-2">
-              <button class="bg-white rounded-l border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
+            <h1 className="text-gray-800 text-center mt-1">Chocolates</h1>
+            <p className="text-center text-gray-800 mt-1">Rs.600</p>
+            <div className="inline-flex items-center mt-2">
+              <button className="bg-white rounded-l border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-4"
+                  className="h-6 w-4"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -246,13 +266,13 @@ function Home() {
                   />{" "}
                 </svg>
               </button>
-              <div class="bg-gray-100 border-t border-b border-gray-100 text-gray-600 hover:bg-gray-100 inline-flex items-center px-4 py-1 select-none">
+              <div className="bg-gray-100 border-t border-b border-gray-100 text-gray-600 hover:bg-gray-100 inline-flex items-center px-4 py-1 select-none">
                 2
               </div>
-              <button class="bg-white rounded-r border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
+              <button className="bg-white rounded-r border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-4"
+                  className="h-6 w-4"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -267,11 +287,11 @@ function Home() {
               </button>
             </div>
 
-            <button class="py-2 px-4 bg-red-500 text-white rounded hover:bg-blue-600 active:bg-blue-700 disabled:opacity-50 mt-4 w-full flex items-center justify-center">
+            <button className="py-2 px-4 bg-red-500 text-white rounded hover:bg-blue-600 active:bg-blue-700 disabled:opacity-50 mt-4 w-full flex items-center justify-center">
               Add to order
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 ml-2"
+                className="h-6 w-6 ml-2"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -286,15 +306,15 @@ function Home() {
             </button>
           </div>
         </div>
-        <div class="w-80 bg-white shadow rounded">
-          <div class="h-48 w-full bg-white-200 flex flex-col justify-between p-4 bg-cover bg-center">
+        <div className="w-80 bg-white shadow rounded">
+          <div className="h-48 w-full bg-white-200 flex flex-col justify-between p-4 bg-cover bg-center">
             <input type="checkbox" />
             <img src={menu3} alt="" />
-            <div class="flex justify-between">
-              <button class="text-white hover:text-blue-500">
+            <div className="flex justify-between">
+              <button className="text-white hover:text-blue-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
+                  className="h-6 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -309,22 +329,22 @@ function Home() {
               </button>
             </div>
             <div>
-              <span class="uppercase text-xs bg-green-50 p-0.5 border-green-500 border rounded text-green-700 font-medium select-none">
+              <span className="uppercase text-xs bg-green-50 p-0.5 border-green-500 border rounded text-green-700 font-medium select-none">
                 available{" "}
               </span>
             </div>
           </div>
-          <div class="p-4 flex flex-col items-center">
-            <p class="text-gray-400 font-light text-xs text-center">
+          <div className="p-4 flex flex-col items-center">
+            <p className="text-gray-400 font-light text-xs text-center">
               Pasteries
             </p>
-            <h1 class="text-gray-800 text-center mt-1">Cookies</h1>
-            <p class="text-center text-gray-800 mt-1">Rs.600</p>
-            <div class="inline-flex items-center mt-2">
-              <button class="bg-white rounded-l border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
+            <h1 className="text-gray-800 text-center mt-1">Cookies</h1>
+            <p className="text-center text-gray-800 mt-1">Rs.600</p>
+            <div className="inline-flex items-center mt-2">
+              <button className="bg-white rounded-l border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-4"
+                  className="h-6 w-4"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -337,13 +357,13 @@ function Home() {
                   />{" "}
                 </svg>
               </button>
-              <div class="bg-gray-100 border-t border-b border-gray-100 text-gray-600 hover:bg-gray-100 inline-flex items-center px-4 py-1 select-none">
+              <div className="bg-gray-100 border-t border-b border-gray-100 text-gray-600 hover:bg-gray-100 inline-flex items-center px-4 py-1 select-none">
                 2
               </div>
-              <button class="bg-white rounded-r border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
+              <button className="bg-white rounded-r border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-4"
+                  className="h-6 w-4"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -358,11 +378,11 @@ function Home() {
               </button>
             </div>
 
-            <button class="py-2 px-4 bg-red-500 text-white rounded hover:bg-blue-600 active:bg-blue-700 disabled:opacity-50 mt-4 w-full flex items-center justify-center">
+            <button className="py-2 px-4 bg-red-500 text-white rounded hover:bg-blue-600 active:bg-blue-700 disabled:opacity-50 mt-4 w-full flex items-center justify-center">
               Add to order
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 ml-2"
+                className="h-6 w-6 ml-2"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -377,15 +397,15 @@ function Home() {
             </button>
           </div>
         </div>
-        <div class="w-80 bg-white shadow rounded">
-          <div class="h-48 w-full bg-white-200 flex flex-col justify-between p-4 bg-cover bg-center">
+        <div className="w-80 bg-white shadow rounded">
+          <div className="h-48 w-full bg-white-200 flex flex-col justify-between p-4 bg-cover bg-center">
             <input type="checkbox" />
             <img src={menu8} alt="" />
-            <div class="flex justify-between">
-              <button class="text-white hover:text-red-500">
+            <div className="flex justify-between">
+              <button className="text-white hover:text-red-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
+                  className="h-6 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -400,22 +420,22 @@ function Home() {
               </button>
             </div>
             <div>
-              <span class="uppercase text-xs bg-green-50 p-0.5 border-green-500 border rounded text-green-700 font-medium select-none">
+              <span className="uppercase text-xs bg-green-50 p-0.5 border-green-500 border rounded text-green-700 font-medium select-none">
                 available{" "}
               </span>
             </div>
           </div>
-          <div class="p-4 flex flex-col items-center">
-            <p class="text-gray-400 font-light text-xs text-center">
+          <div className="p-4 flex flex-col items-center">
+            <p className="text-gray-400 font-light text-xs text-center">
               Pasteries
             </p>
-            <h1 class="text-gray-800 text-center mt-1">Cupcakes</h1>
-            <p class="text-center text-gray-800 mt-1">Rs.600</p>
-            <div class="inline-flex items-center mt-2">
-              <button class="bg-white rounded-l border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
+            <h1 className="text-gray-800 text-center mt-1">Cupcakes</h1>
+            <p className="text-center text-gray-800 mt-1">Rs.600</p>
+            <div className="inline-flex items-center mt-2">
+              <button className="bg-white rounded-l border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-4"
+                  className="h-6 w-4"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -428,13 +448,13 @@ function Home() {
                   />{" "}
                 </svg>
               </button>
-              <div class="bg-gray-100 border-t border-b border-gray-100 text-gray-600 hover:bg-gray-100 inline-flex items-center px-4 py-1 select-none">
+              <div className="bg-gray-100 border-t border-b border-gray-100 text-gray-600 hover:bg-gray-100 inline-flex items-center px-4 py-1 select-none">
                 2
               </div>
-              <button class="bg-white rounded-r border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
+              <button className="bg-white rounded-r border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-4"
+                  className="h-6 w-4"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -449,11 +469,11 @@ function Home() {
               </button>
             </div>
 
-            <button class="py-2 px-4 bg-red-500 text-white rounded hover:bg-blue-600 active:bg-blue-700 disabled:opacity-50 mt-4 w-full flex items-center justify-center">
+            <button className="py-2 px-4 bg-red-500 text-white rounded hover:bg-blue-600 active:bg-blue-700 disabled:opacity-50 mt-4 w-full flex items-center justify-center">
               Add to order
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 ml-2"
+                className="h-6 w-6 ml-2"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -468,15 +488,15 @@ function Home() {
             </button>
           </div>
         </div>
-        <div class="w-80 bg-white shadow rounded">
-          <div class="h-48 w-full bg-white-200 flex flex-col justify-between p-4 bg-cover bg-center">
+        <div className="w-80 bg-white shadow rounded">
+          <div className="h-48 w-full bg-white-200 flex flex-col justify-between p-4 bg-cover bg-center">
             <input type="checkbox" />
             <img src={menu} alt="" />
-            <div class="flex justify-between">
-              <button class="text-white hover:text-red-500">
+            <div className="flex justify-between">
+              <button className="text-white hover:text-red-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
+                  className="h-6 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -491,22 +511,22 @@ function Home() {
               </button>
             </div>
             <div>
-              <span class="uppercase text-xs bg-green-50 p-0.5 border-green-500 border rounded text-green-700 font-medium select-none">
+              <span className="uppercase text-xs bg-green-50 p-0.5 border-green-500 border rounded text-green-700 font-medium select-none">
                 available{" "}
               </span>
             </div>
           </div>
-          <div class="p-4 flex flex-col items-center">
-            <p class="text-gray-400 font-light text-xs text-center">
+          <div className="p-4 flex flex-col items-center">
+            <p className="text-gray-400 font-light text-xs text-center">
               Pasteries
             </p>
-            <h1 class="text-gray-800 text-center mt-1">Cupcakes</h1>
-            <p class="text-center text-gray-800 mt-1">Rs.600</p>
-            <div class="inline-flex items-center mt-2">
-              <button class="bg-white rounded-l border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
+            <h1 className="text-gray-800 text-center mt-1">Cupcakes</h1>
+            <p className="text-center text-gray-800 mt-1">Rs.600</p>
+            <div className="inline-flex items-center mt-2">
+              <button className="bg-white rounded-l border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-4"
+                  className="h-6 w-4"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -519,13 +539,13 @@ function Home() {
                   />{" "}
                 </svg>
               </button>
-              <div class="bg-gray-100 border-t border-b border-gray-100 text-gray-600 hover:bg-gray-100 inline-flex items-center px-4 py-1 select-none">
+              <div className="bg-gray-100 border-t border-b border-gray-100 text-gray-600 hover:bg-gray-100 inline-flex items-center px-4 py-1 select-none">
                 2
               </div>
-              <button class="bg-white rounded-r border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
+              <button className="bg-white rounded-r border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-4"
+                  className="h-6 w-4"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -540,11 +560,11 @@ function Home() {
               </button>
             </div>
 
-            <button class="py-2 px-4 bg-red-500 text-white rounded hover:bg-blue-600 active:bg-blue-700 disabled:opacity-50 mt-4 w-full flex items-center justify-center">
+            <button className="py-2 px-4 bg-red-500 text-white rounded hover:bg-blue-600 active:bg-blue-700 disabled:opacity-50 mt-4 w-full flex items-center justify-center">
               Add to order
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 ml-2"
+                className="h-6 w-6 ml-2"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -559,15 +579,15 @@ function Home() {
             </button>
           </div>
         </div>
-        <div class="w-80 bg-white shadow rounded">
-          <div class="h-48 w-full bg-white-200 flex flex-col justify-between p-4 bg-cover bg-center">
+        <div className="w-80 bg-white shadow rounded">
+          <div className="h-48 w-full bg-white-200 flex flex-col justify-between p-4 bg-cover bg-center">
             <input type="checkbox" />
             <img src={menu8} alt="" />
-            <div class="flex justify-between">
-              <button class="text-white hover:text-red-500">
+            <div className="flex justify-between">
+              <button className="text-white hover:text-red-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
+                  className="h-6 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -582,22 +602,22 @@ function Home() {
               </button>
             </div>
             <div>
-              <span class="uppercase text-xs bg-green-50 p-0.5 border-green-500 border rounded text-green-700 font-medium select-none">
+              <span className="uppercase text-xs bg-green-50 p-0.5 border-green-500 border rounded text-green-700 font-medium select-none">
                 available{" "}
               </span>
             </div>
           </div>
-          <div class="p-4 flex flex-col items-center">
-            <p class="text-gray-400 font-light text-xs text-center">
+          <div className="p-4 flex flex-col items-center">
+            <p className="text-gray-400 font-light text-xs text-center">
               Pasteries
             </p>
-            <h1 class="text-gray-800 text-center mt-1">Cupcakes</h1>
-            <p class="text-center text-gray-800 mt-1">Rs.600</p>
-            <div class="inline-flex items-center mt-2">
-              <button class="bg-white rounded-l border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
+            <h1 className="text-gray-800 text-center mt-1">Cupcakes</h1>
+            <p className="text-center text-gray-800 mt-1">Rs.600</p>
+            <div className="inline-flex items-center mt-2">
+              <button className="bg-white rounded-l border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-4"
+                  className="h-6 w-4"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -610,13 +630,13 @@ function Home() {
                   />{" "}
                 </svg>
               </button>
-              <div class="bg-gray-100 border-t border-b border-gray-100 text-gray-600 hover:bg-gray-100 inline-flex items-center px-4 py-1 select-none">
+              <div className="bg-gray-100 border-t border-b border-gray-100 text-gray-600 hover:bg-gray-100 inline-flex items-center px-4 py-1 select-none">
                 2
               </div>
-              <button class="bg-white rounded-r border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
+              <button className="bg-white rounded-r border text-gray-600 hover:bg-gray-100 active:bg-gray-200 disabled:opacity-50 inline-flex items-center px-2 py-1 border-r border-gray-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-4"
+                  className="h-6 w-4"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -631,11 +651,11 @@ function Home() {
               </button>
             </div>
 
-            <button class="py-2 px-4 bg-red-500 text-white rounded hover:bg-blue-600 active:bg-blue-700 disabled:opacity-50 mt-4 w-full flex items-center justify-center">
+            <button className="py-2 px-4 bg-red-500 text-white rounded hover:bg-blue-600 active:bg-blue-700 disabled:opacity-50 mt-4 w-full flex items-center justify-center">
               Add to order
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 ml-2"
+                className="h-6 w-6 ml-2"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -652,14 +672,14 @@ function Home() {
         </div>
       </div>
       <div>
-        <h1 class="italic mb-4 text-center text-3xl text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-          <span class="text-transparent bg-clip-text bg-gradient-to-r to-orange-400 from-red-600">
+        <h1 className="italic mb-4 text-center text-3xl text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r to-orange-400 from-red-600">
             About Us
           </span>
         </h1>
       </div>
       <div>
-        <p class="mb-3 text-center text-gray-500 dark:text-gray-400">
+        <p className="mb-3 text-center text-gray-500 dark:text-gray-400">
           This is a place where you get a wide choice of rich delicious cakes &
           pastries for all occasion.Aim to serve the most creative and
           mouth-watering cakes, to help celebrate your events in a special
@@ -667,41 +687,41 @@ function Home() {
           flavours.You can then sit back and relax & expect a wonderful cake to
           arrive at your desired location, on your chosen date nad time.
         </p>
-        <div class="bg-center">
-          <img class="bg-center" src={about} alt="" />
+        <div className="bg-center">
+          <img className="bg-center" src={about} alt="" />
         </div>
       </div>
       <div>
-        <h1 class="italic mb-4 text-center text-3xl text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-          <span class="text-transparent bg-clip-text bg-gradient-to-r to-orange-400 from-red-600">
+        <h1 className="italic mb-4 text-center text-3xl text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r to-orange-400 from-red-600">
             Gallery
           </span>
         </h1>
-        <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
-          <div class="-m-1 flex flex-wrap md:-m-2">
-            <div class="flex w-1/3 flex-wrap">
-              <div class="w-full p-1 md:p-2">
+        <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
+          <div className="-m-1 flex flex-wrap md:-m-2">
+            <div className="flex w-1/3 flex-wrap">
+              <div className="w-full p-1 md:p-2">
                 <img
                   alt="gallery"
-                  class="block h-full w-full rounded-lg object-cover object-center"
+                  className="block h-full w-full rounded-lg object-cover object-center"
                   src={menu9}
                 />
               </div>
             </div>
-            <div class="flex w-1/3 flex-wrap">
-              <div class="w-full p-1 md:p-2">
+            <div className="flex w-1/3 flex-wrap">
+              <div className="w-full p-1 md:p-2">
                 <img
                   alt="gallery"
-                  class="block h-full w-full rounded-lg object-cover object-center"
+                  className="block h-full w-full rounded-lg object-cover object-center"
                   src={menu10}
                 />
               </div>
             </div>
-            <div class="flex w-1/3 flex-wrap">
-              <div class="w-full p-1 md:p-2">
+            <div className="flex w-1/3 flex-wrap">
+              <div className="w-full p-1 md:p-2">
                 <img
                   alt="gallery"
-                  class="block h-full w-full rounded-lg object-cover object-center"
+                  className="block h-full w-full rounded-lg object-cover object-center"
                   src={menu11}
                 />
               </div>
@@ -710,15 +730,15 @@ function Home() {
         </div>
       </div>
       <div>
-        <h1 class="italic mb-4 text-center text-3xl text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-          <span class="text-transparent bg-clip-text bg-gradient-to-r to-orange-400 from-red-600">
+        <h1 className="italic mb-4 text-center text-3xl text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r to-orange-400 from-red-600">
             Videos
           </span>
         </h1>
         <a href="https://youtube.com/shorts/YCTuQ_JcuuU?si=cdW-wYOncA1pMU_j">
-          <div class="border-4 rounded border-indigo-600">
+          <div className="border-4 rounded border-indigo-600">
             <svg
-              class="w-20 h-20 text-gray-800 dark:text-white"
+              className="w-20 h-20 text-gray-800 dark:text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -728,6 +748,101 @@ function Home() {
             </svg>
           </div>
         </a>
+      </div>
+      <div>
+        <div id="gallery" class="relative w-full" data-carousel="slide">
+          <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+                class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="hidden duration-700 ease-in-out"
+              data-carousel-item="active"
+            >
+              <img
+                src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+                class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt=""
+              />
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+                class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt="imag3"
+              />
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+                class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt=""
+              />
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+                class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt=""
+              />
+            </div>
+          </div>
+          <button
+            type="button"
+            class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-prev
+          >
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M18.75 19.5l-7.5-7.5 7.5-7.5m-6 15L5.25 12l7.5-7.5"
+                />
+              </svg>
+
+              <span class="sr-only">Previous</span>
+            </span>
+          </button>
+          <button
+            type="button"
+            class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-next
+          >
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+
+              <span class="sr-only">Next</span>
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   );
